@@ -1,0 +1,21 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="PSX Remote settings">
+
+        <EditTextPreference
+            android:key="host_preference"
+            android:title="Host"
+            android:summary="The host address of the PSX server to connect to."
+            android:dialogTitle="Host settings" />
+
+        <EditTextPreference
+            android:key="port_preference"
+            android:title="Port"
+            android:summary="The port on the PSX server."
+            android:dialogTitle="Port settings" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
